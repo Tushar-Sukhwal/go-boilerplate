@@ -18,7 +18,7 @@ type Config struct {
 	Auth          AuthConfig           `koanf:"auth" validate:"required"`
 	Redis         RedisConfig          `koanf:"redis" validate:"required"`
 	Integration   IntegrationConfig    `koanf:"integration" validate:"required"`
-	Observability *ObservabilityConfig `koanf:"observability"`
+	Observability *ObservabilityConfig `koanf:"observability"` // pointer because it's optional
 }
 
 type Primary struct {

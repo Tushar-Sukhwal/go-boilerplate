@@ -16,7 +16,7 @@ type ObservabilityConfig struct {
 type LoggingConfig struct {
 	Level              string        `koanf:"level" validate:"required"`
 	Format             string        `koanf:"format" validate:"required"`
-	SlowQueryThreshold time.Duration `koanf:"slow_query_threshold"`
+	SlowQueryThreshold time.Duration `koanf:"slow_query_threshold"` 	
 }
 
 type NewRelicConfig struct {
