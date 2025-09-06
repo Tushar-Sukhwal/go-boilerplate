@@ -5,7 +5,7 @@ import (
 	"strings"
 
 	"github.com/go-playground/validator/v10"
-	_ "github.com/joho/godotenv/autoload"
+	_ "github.com/joho/godotenv/autoload" 
 	"github.com/knadh/koanf/providers/env"
 	"github.com/knadh/koanf/v2"
 	"github.com/rs/zerolog"
